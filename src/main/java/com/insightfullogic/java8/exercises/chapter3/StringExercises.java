@@ -8,12 +8,14 @@ import java.util.Optional;
 
 public class StringExercises {
 
-    // Question 7
+    /**  Count the number of lowercase letters in a String (hint: look at the chars method on String).*/
     public static int countLowercaseLetters(String string) {
         return Exercises.replaceThisWithSolution();
     }
 
-    // Question 8
+    /**  Find the String with the largest number of lowercase letters from a
+        List<String>. You can return an Optional<String> to account for the empty list
+        case.*/
     public static Optional<String> mostLowercaseString(List<String> strings) {
         return Exercises.replaceThisWithSolution();
     }

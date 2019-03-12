@@ -8,7 +8,9 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 /**
- * Advanced Exercises Question 1
+ * (Optional) Advanced
+ * Write an implementation of the Stream function filter using only reduce and
+ * lambda expressions. Again, you can return a List instead of a Stream if you want.
  */
 public class FilterUsingReduce {
 

@@ -8,7 +8,9 @@ import java.util.function.Function;
 import java.util.stream.Stream;
 
 /**
- * Advanced Exercises Question 2
+ * (Optional) Advanced
+ * Write an implementation of the Stream function map using only reduce and lambda
+ * expressions. You can return a List instead of a Stream if you want.
  */
 public class MapUsingReduce {
 

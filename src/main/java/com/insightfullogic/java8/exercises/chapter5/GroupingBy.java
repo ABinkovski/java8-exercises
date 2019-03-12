@@ -9,6 +9,15 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
+/**
+ * (Optional) Advanced
+ * Implement Collectors.groupingBy as a custom collector. You don’t need to
+ * provide a downstream collector, so just implementing the simplest variant is
+ * fine. If you look at the JDK source code, you’re cheating! Hint: you might want
+ * to start with public class GroupingBy<T, K> implements Collector<T,
+ * Map<K, List<T>>, Map<K, List<T>>>. This is an advanced exercise, so you
+ * might want to attempt it last.
+ * */
 public class GroupingBy<T, K> implements Collector<T, Map<K, List<T>>, Map<K, List<T>>> {
 
     private final Function<? super T, ? extends K> classifier;
